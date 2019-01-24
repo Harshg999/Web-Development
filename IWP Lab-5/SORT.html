@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sorting</title>
+
+</head>
+
+<body>
+<center><h>SORTING NUMBERS</h></center>
+
+
+Number:- <br>
+<input type="number" id="b1"><br><br>
+<input type="number" id="b2"><br><br>
+<input type="number" id="b3"><br><br>
+<input type="number" id="b4"><br><br>
+<input type="number" id="b5"><br><br>
+
+<button onclick="sort()">Submit</button>
+<center><p id="ans"> Answer:</p></center>
+
+
+
+
+<script>
+
+function sort()
+{
+var n=5;
+var a=new Array(5);
+    
+    a[0]=parseInt(document.getElementById("b1").value);
+    a[1]=parseInt(document.getElementById("b2").value);
+    a[2]=parseInt(document.getElementById("b3").value);
+    a[3]=parseInt(document.getElementById("b4").value);
+    a[4]=parseInt(document.getElementById("b5").value);
+
+    
+    for(i=0;i<5;i++)
+        {
+            for(j=0;j<5;j++)
+                {
+                    if(a[j]>a[j+1])
+                        {
+                            var temp =a[j];
+                            a[j]=a[j+1];
+                            a[j+1]=temp;
+                        }
+                }
+        }
+    
+    document.getElementById("ans").innerHTML= a;
+
+
+
+}
+
+
+</script>
+</body>
+
+
+</html>
+

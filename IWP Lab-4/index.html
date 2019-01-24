@@ -1,0 +1,512 @@
+<!DOCTYPE HTML
+><html>
+    <head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+        <body>
+
+    
+    
+
+<div style="margin:0px">
+    <div align="center">
+        <table>            
+            <tr>
+                <td valign="top">
+                    <table width="100%">
+                        <tr>
+                            <td valign="top" width="30%">
+
+                                <table cellpadding="5px" cellspacing="0px" style="margin:10px;border-radius:5px;border:1px solid #0e72bb;background-color:#f5f5f5;font-family:Arial" width="80%">
+                                    <tr>
+                                        <td colspan="2" style="background-color:#3665c2;color:#ffffff;font-family:Verdana;font-weight:bold;padding:5px;font-size:13px">
+                                            Login Detail
+
+                                    </td></tr>
+                                    <tr>
+                                        <td>
+                                            Username
+                                        </td>
+                                        <td>
+
+                                            <input name="j_username" type="text" title="Enter IRCTC User Name">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Password
+                                        </td>
+                                        <td>
+                                            <input name="j_password" type="password" title="Enter IRCTC Password">
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table cellpadding="5px" cellspacing="0px" style="margin:10px;border-radius:5px;border:1px solid #0e72bb;background-color:#f5f5f5;font-family:Arial" width="80%">
+
+                                    <tr style="text-align:center">
+                                        <td colspan="4" style="background-color:#3665c2;color:#ffffff;font-family:Verdana;font-weight:bold;padding:5px;font-size:13px">
+                                            Select Quota
+                                        </td>
+
+                                    </tr>
+
+                                    <tr style="text-align:center">
+                                        <td>
+                                            <input type="radio" name="quota" value="GN"><br><label>GENERAL</label>
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="quota" value="PT"><br> <label>PREMIUM TATKAL</label>
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="quota" value="LD"><br> <label>LADIES</label>
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="quota" value="TQ" checked><br> <label>TATKAL</label>
+                                        </td>
+                                    </tr>
+
+                                </table>  <input type="button" value="Book Ticket" style="color:White;width:80%;font-family:Arial;font-size:20px;margin:5px;border:3px solid green;background-color:#019cde;border-radius:5px;padding-bottom:10px;padding-left:30px;padding-right:30px;padding-top:10px" title="Save Data to use it in IRCTC">
+                            </td>
+
+                            <td valign="top" align="center" width="30%">
+                                
+
+                             
+                            </td>
+                            <td valign="top" width="30%">
+
+
+                                <table cellpadding="5px" cellspacing="0px" style="margin:10px;border-radius:5px;border:1px solid #0e72bb;background-color:#f5f5f5;font-family:Arial" width="95%">
+                                    <tr>
+                                        <td colspan="2" style="background-color:#3665c2;color:#ffffff;font-family:Verdana;font-weight:bold;padding:5px;font-size:13px">
+                                            Plan My Travel
+                                            <input title="Check For Auto search train" type="checkbox" style="float:right" checked><span style="float:right;font-size:11px;font-weight:bold;font-family:arial,Helvetica,sans-serif">Auto Search</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">
+                                            From
+                                        </td>
+                                        <td align="left">
+
+                                            <input name="jpform:fromStation" type="text">
+                                            
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">
+                                            To
+                                        </td>
+                                        <td align="left">
+                                            <input name="jpform:toStation" type="text">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">
+                                            Date
+                                        </td>
+                                        <td align="left">
+                                            <input name="jpform:journeyDateInputDate" type="text">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">
+                                            Train No
+                                        </td>
+                                        <td align="left">
+                                            <input type="text">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">
+                                            Class
+                                        </td>
+                                        <td align="left" style="font-size:10px;font-family:arial,Helvetica,sans-serif">
+                                            <select name="ddlClass">
+                                                <option>SL</option>
+                                                <option>3A</option>
+                                                <option>2A</option>
+                                                <option>CC</option>
+                                                <option>2S</option>
+                                                <option>1A</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" colspan="2">
+                                            Boarding Station: <input type="text" title="Can be left blank if FROM Station is same as Bording Station" size="16">
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" align="left">
+
+                    
+                    <input title="Save Ticket Data for Future use" type="checkbox">
+                    Save Passenger List
+                    <select disabled>
+                        <option>-Select-</option>
+                        <option>Ticket 1</option>
+                        <option>Ticket 2</option>
+                        <option>Ticket 3</option>
+                    </select>
+                    <input type="button" value="Load Ticket Data" disabled>
+                    <input type="button" value="Clear Ticket Data" disabled>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td valign="top">
+                                <table>
+                                    <tr>
+                                        <td><table cellpadding="5px" cellspacing="0px" style="margin-left:10px;border-radius:5px;border:1px solid #0e72bb;background-color:#f5f5f5;font-family:Arial">
+
+                                    <tr>
+                                        <td colspan="9" style="background-color:#3665c2;color:#ffffff;font-family:Verdana;font-weight:bold;padding:5px;font-size:13px">
+                                            Passenger Details
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>SNo</td>
+                                        <td>Name</td>
+                                        <td>Age</td>
+                                        <td>Sex</td>
+                                        <td>Berth Preference</td>
+                                        <td>Meal</td>                                       
+                                        <td>Sen Citzn</td>
+                                         <td>ID Card Type</td>
+                                        <td>ID Card No</td>
+                                    </tr>
+                                    <tr>
+                                        <td> 1 </td>
+                                        <td>
+                                            <input type="text" size="15" maxlength="16" name="addPassengerForm:psdetail:0:psgnName">
+                                        </td>
+                                        <td>
+                                            <input type="text" size="1" maxlength="3" name="addPassengerForm:psdetail:0:psgnAge">
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:0:psgnGender">
+                                                <option value="">Select</option>
+                                                <option value="F">Female</option>
+                                                <option value="M">Male</option>
+
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:0:berthChoice">
+                                                <option selected value="">No Preference</option>
+                                                <option value="LB">LOWER</option>
+                                                <option value="MB">MIDDLE</option>
+                                                <option value="UB">UPPER</option>
+                                                <option value="SL">SIDE LOWER</option>
+                                                <option value="SU">SIDE UPPER</option>
+                                                <option value="WS">WINDOW SIDE</option>
+                                            </select>
+                                        </td>
+
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:0:foodChoice" style="width:75px">
+                                                <option value=" ">Select</option>                                                
+                                                <option value="N">Non-Veg</option>
+                                                <option value="V">Veg</option>
+                                            </select>
+
+                                        </td>
+                                         <td>
+                                            <input type="checkbox" name="addPassengerForm:psdetail:0:concessionOpt">
+                                        </td>
+
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:0:idCardType" style="width:100px">
+                                                <option value="NULL_IDCARD">Select ID Card Type</option>
+                                                <option value="DRIVING_LICENSE">Driving Licence</option>
+                                                <option value="PASSPORT">Passport</option>
+                                                <option value="PANCARD">PAN Card</option>
+                                                <option value="VOTER_ICARD">Voter ID-card</option>
+                                               
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <input type="text" maxlength="20" name="addPassengerForm:psdetail:0:idCardNumber" size="15">
+                                        </td>                                       
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            <input type="text" value="" size="15" maxlength="16" name="addPassengerForm:psdetail:1:psgnName">
+                                        </td>
+                                        <td>
+                                            <input type="text" size="1" maxlength="3" name="addPassengerForm:psdetail:1:psgnAge">
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:1:psgnGender">
+                                                <option selected value="">Select</option>
+                                                <option value="F">Female</option>
+                                                <option value="M">Male</option>
+
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:1:berthChoice">
+                                                <option selected value="">No Preference</option>
+                                                <option value="LB">LOWER</option>
+                                                <option value="MB">MIDDLE</option>
+                                                <option value="UB">UPPER</option>
+                                                <option value="SL">SIDE LOWER</option>
+                                                <option value="SU">SIDE UPPER</option>
+                                                <option value="WS">WINDOW SIDE</option>
+                                            </select>
+
+                                        </td>
+                                        <td>
+
+                                            <select name="addPassengerForm:psdetail:1:foodChoice">
+                                                <option value=" ">Select</option>
+                                                <option value="N">Non-Veg</option>
+                                                <option value="V">Veg</option>
+                                            </select>
+
+                                        </td>
+                                         <td>
+                                            <input type="checkbox" name="addPassengerForm:psdetail:1:concessionOpt">
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:1:idCardType" style="width:100px">
+                                                <option value="NULL_IDCARD">Select ID Card Type</option>
+                                                <option value="DRIVING_LICENSE">Driving Licence</option>
+                                                <option value="PASSPORT">Passport</option>
+                                                <option value="PANCARD">PAN Card</option>
+                                              
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <input type="text" value="" maxlength="20" name="addPassengerForm:psdetail:1:idCardNumber" size="15">
+                                        </td>                                       
+                                    </tr>
+                                    
+                                    
+                                    <tr>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>
+                                            <input type="text" value="" size="15" maxlength="16" name="addPassengerForm:psdetail:4:psgnName">
+                                        </td>
+                                        <td>
+                                            <input type="text" size="1" maxlength="3" name="addPassengerForm:psdetail:4:psgnAge">
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:4:psgnGender">
+                                                <option selected value="">Select</option>
+                                                <option value="F">Female</option>
+                                                <option value="M">Male</option>
+
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:4:berthChoice">
+                                                <option selected value="">No Preference</option>
+                                                <option value="LB">LOWER</option>
+                                                <option value="MB">MIDDLE</option>
+                                                <option value="UB">UPPER</option>
+                                                <option value="SL">SIDE LOWER</option>
+                                                <option value="SU">SIDE UPPER</option>
+                                                <option value="WS">WINDOW SIDE</option>
+                                            </select>
+
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:4:foodChoice">
+                                                <option value=" ">Select</option>
+                                                 <option value="N">Non-Veg</option>
+                                                <option value="V">Veg</option>
+                                            </select>
+
+                                        </td>
+                                         <td>
+                                            <input type="checkbox" name="addPassengerForm:psdetail:4:concessionOpt">
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:4:idCardType" style="width:100px">
+                                                <option value="NULL_IDCARD">Select ID Card Type</option>
+                                                <option value="DRIVING_LICENSE">Driving Licence</option>
+                                                <option value="PASSPORT">Passport</option>
+                                                <option value="PANCARD">PAN Card</option>
+                                           
+                                                <option value="UNIQUE_ICARD">Aadhaar ID</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <input type="text" value="" maxlength="20" name="addPassengerForm:psdetail:4:idCardNumber" size="15">
+                                        </td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            4
+                                        </td>
+                                        <td>
+                                            <input type="text" value="" size="15" maxlength="16" name="addPassengerForm:psdetail:5:psgnName">
+                                        </td>
+                                        <td>
+                                            <input type="text" size="1" maxlength="3" name="addPassengerForm:psdetail:5:psgnAge">
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:5:psgnGender">
+                                                <option selected value="">Select</option>
+                                                <option value="F">Female</option>
+                                                <option value="M">Male</option>
+
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:5:berthChoice">
+                                                <option selected value="">No Preference</option>
+                                                <option value="LB">LOWER</option>
+                                                <option value="MB">MIDDLE</option>
+                                                <option value="UB">UPPER</option>
+                                                <option value="SL">SIDE LOWER</option>
+                                                <option value="SU">SIDE UPPER</option>
+                                                <option value="WS">WINDOW SIDE</option>
+                                            </select>
+
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:5:foodChoice">
+                                                <option value=" ">Select</option>
+                                                 <option value="N">Non-Veg</option>
+                                                <option value="V">Veg</option>
+                                            </select>
+
+                                        </td>
+                                         <td>
+                                            <input type="checkbox" name="addPassengerForm:psdetail:5:concessionOpt">
+                                        </td>
+                                        <td>
+                                            <select name="addPassengerForm:psdetail:5:idCardType" style="width:100px">
+                                                <option value="NULL_IDCARD">Select ID Card Type</option>
+                                                <option value="DRIVING_LICENSE">Driving Licence</option>
+                                                <option value="PASSPORT">Passport</option>
+                                                <option value="PANCARD">PAN Card</option>
+                                              
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <input type="text" value="" maxlength="20" name="addPassengerForm:psdetail:5:idCardNumber" size="15">
+                                        </td>
+                                    </tr>
+                                </table></td>
+                                        <td valign="top">
+                                          
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                
+                                <table cellpadding="0" cellspacing="0" style="margin:0px">
+                                    <tr>
+                                        <td style="padding:5px" valign="top">
+
+                                            <table cellpadding="5px" cellspacing="0px" style="margin:5px;border-radius:5px;border:1px solid #0e72bb;background-color:#f5f5f5;font-family:Arial;float:left">
+                                                <tr>
+                                                    <td colspan="4" align="left" style="background-color:#3665c2;color:#ffffff;font-family:Verdana;font-weight:bold;padding:5px;font-size:13px">
+                                                        Child Passenger Details
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        SNo
+                                                    </td>
+                                                    <td>
+                                                        Name
+                                                    </td>
+                                                    <td>
+                                                        Age
+                                                    </td>
+                                                    <td>
+                                                        Sex
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td>
+                                                        1.
+                                                    </td>
+                                                    <td>
+                                                        <input maxlength="16" name="addPassengerForm:childInfoTable:1:infantName" size="22" type="text" value="">
+                                                    </td>
+                                                    <td>
+                                                        <select name="addPassengerForm:childInfoTable:1:infantAge">
+                                                            <option selected value="">Select</option>
+                                                            <option value="0">Below one year</option>
+                                                            <option value="1">One year</option>
+                                                            <option value="2">Two year</option>
+                                                            <option value="3">Three year</option>
+                                                            <option value="4">Four year</option>
+                                                        </select>
+                                                    </td>
+                                                    <td>
+                                                        <select name="addPassengerForm:childInfoTable:1:infantGender">
+                                                            <option selected value="">Select</option>
+                                                            <option value="M">Male</option>
+                                                            <option value="F">Female</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td style="padding:5px" valign="top">
+
+                                            <table cellpadding="5px" cellspacing="0px" style="margin:10px;border-radius:5px;border:1px solid #0e72bb;background-color:#f5f5f5;font-family:Arial;float:left">
+                                                <tr>
+                                                    <td align="left">
+                                                        <input name="addPassengerForm:autoUpgrade" type="checkbox">Consider for Auto Upgradation
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <input name="addPassengerForm:onlyConfirmBerths" type="checkbox">Book only if confirm berths are allotted
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        Mobile Number :<input name="addPassengerForm:mobileNo" type="text"><br>
+                                                        SMS will be sent to this number
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                       
+                                    </tr>
+                                    
+                                </table>
+                            </td>                          
+
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+        </table>
+</div>
+    
+
+
+
+
+
+</div></body></html>

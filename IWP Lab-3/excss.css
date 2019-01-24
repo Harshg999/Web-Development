@@ -1,0 +1,19 @@
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.83vw;
+}
+table {
+  border-spacing:10px;
+    caption-side: top;
+}
+.r14{
+    background-color: aquamarine;
+}
+.r2{
+    background-color:blueviolet
+}
+.r3{
+    background-color: darkorange
+}

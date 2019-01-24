@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Krishnamoorty Number</title>
+
+</head>
+
+<body>
+<center><h>Krishnamoorty Number Checker</h></center>
+
+
+Number:- <input type="number" id="b">
+
+<button onclick="kmn()">Submit</button>
+<p id="ans"> Answer:</p>
+
+
+
+
+<script>
+
+
+function factorial(d1)
+{
+var i=1;
+
+for(j=1;j<=d1;j++)
+{
+
+i=i*j;
+}
+
+return i;
+}
+
+function kmn()
+{
+var n=parseInt(document.getElementById("b").value);
+var x=n;
+var total=0;
+while(x!=0)
+{
+	var d=x%10;
+	total=total+factorial(d);
+	x=Math.floor(x/10);
+
+
+}
+
+if(total==n)
+{
+	document.getElementById("ans").innerHTML="It is a Krishnamoorty Number";
+}
+else
+{
+	document.getElementById("ans").innerHTML="It is not a Krishnamoorty Number";
+
+}
+
+
+}
+
+
+</script>
+</body>
+
+
+</html>
+
